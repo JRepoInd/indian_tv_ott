@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.indianott" name="Indian TV (OTT)" provider-name="gagan" version="1.0.0">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.video.F4mProxy" version="2.2.6"/>
+	</requires>
+	<extension library="addon.py" point="xbmc.python.pluginsource">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Indian TV (OTT)</summary>
+		<description lang="en">This plugin list all the shows on yupptv. It also tries to bring many over the top content providers to RPI starting from yupptv.</description>
+		<license>GNU General Public License, v2</license>
+		<language/>
+	</extension>
+</addon>
